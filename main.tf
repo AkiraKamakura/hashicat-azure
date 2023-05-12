@@ -133,7 +133,7 @@ resource "azurerm_linux_virtual_machine" "catapp" {
 
   }
 
-  tags = {}
+  tags = {
     Department = "devops"
   }
 
